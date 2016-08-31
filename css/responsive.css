@@ -13,9 +13,10 @@ p {
 }
 
 a {
- color: black;
- font-family: 'Roboto', sans-serif;
- font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 /* Header
@@ -87,3 +88,31 @@ header {
   width: 90%;
   margin: 25px 0;
 }
+
+/* Footer
+   ========================================================================== */
+footer {
+  
+  background-color: #fafafa;
+  text-align: center;
+  width: 90%;
+  padding: 5%;
+}
+
+.contact {
+  padding: 40px 0 0 0;
+  border-bottom:  solid #E8E8E8;
+}
+
+.footer-links {
+  padding: 40px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links :nth-child(n+3) {
+  display: none;
+}
+
+
+
