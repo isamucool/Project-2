@@ -1,0 +1,89 @@
+/* General
+   ========================================================================== */
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #858484;
+}
+
+a {
+ color: black;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
+}
+
+/* Header
+   ========================================================================== */
+
+header {
+  background-color: #fafafa;
+  text-align: center;
+  width: 90%;
+  padding: 5%;
+}
+
+/* Nav-Bar
+   ========================================================================== */
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  background-color: #fff;
+  margin: 3px;
+  display: flex;
+}
+
+.button a {
+  padding: inherit;
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+/* Profile
+   ========================================================================== */
+
+.profile {
+  padding: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.portrait {
+  width: 60%;
+  margin: 0 20%;
+  background-color: #EDEDED;
+}
+.profile-image {
+  margin: 40px;
+  border-radius: 50%;
+  width: 40%;
+  transition: all 1s;
+}
+
+.profile-image:hover {
+  transform: rotate(360deg);
+}
+
+
+/* Body
+   ========================================================================== */
+
+.wrapper {
+  text-align: center;
+  width: 90%;
+  padding: 5%;
+}
+
+.miniature {
+  width: 90%;
+  margin: 25px 0;
+}
