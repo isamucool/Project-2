@@ -1,2 +1,114 @@
-/* General
+/* Tablet View (breakpoint in 768 pixels)
    ========================================================================== */
+@media (min-width: 768px) {
+  
+  /* Header */
+  header{
+    font-size: .8em;
+    padding:  15px 5% 35px 5%;
+  }
+  
+  /* Nav-Bar */
+  .nav {
+    width: 40%;
+    padding: 0 30%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .button  {
+    background-color: #fafafa;
+    flex-grow: 1;
+  }
+  
+  /* Profile */
+  .profile {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .profile p {
+    text-align: left;
+    font-size: 1.35em;
+    width: 50%;
+    padding: 0;
+  }
+  
+  .portrait {
+    margin: 1% 0;
+    width: 40%;
+    height: 1%;
+  }
+  
+  .profile-image {
+  margin: 11px 0;
+  border-radius: 50%;
+  width: 50%;
+  transition: all 1s;
+  }
+  
+  /* Body */
+  
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    width: 50%;
+    margin: 20px 0;
+
+  }
+  
+  section h2 {
+    font-size: 1.2em;
+  }
+  section p {
+    font-size: 1em;
+    padding: 0 15%
+  }
+  
+  /*footer*/
+  footer {
+    padding-top: 0;
+  }
+  
+  footer h2 {
+    font-size: 1.1em;
+  }
+  
+  footer p{
+    padding: 0 10%;
+    font-size: .9em;
+  }
+  
+  .footer-links {
+    justify-content: space-around;
+  }
+  
+  .footer-links :nth-child(n+3) {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links :nth-child(2) {
+    display: none;
+  }
+  
+  .footer-links :nth-child(1) {
+    text-align: left;  
+    margin-right: auto;
+  }
+  
+  .footer-links a {
+    font-size: 1em;
+  }
+  
+}
