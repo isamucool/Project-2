@@ -3,18 +3,19 @@
 h1,
 h2 {
   font-family: 'Roboto', sans-serif;
+  color: #4484CE;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   line-height: 1.5;
-  color: #858484;
+  color: #4484CE;
 }
 
 a {
   font-size: 1.2em;
-  color: black;
+  color: #4454CE;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
@@ -23,7 +24,7 @@ a {
    ========================================================================== */
 
 header {
-  background-color: #fafafa;
+  background-color: #D9D9D9;
   text-align: center;
   width: 90%;
   padding: 5%;
@@ -38,7 +39,7 @@ header {
 }
 
 .button{
-  background-color: #fff;
+  background-color: #F9EF00;
   margin: 3px;
   display: flex;
 }
@@ -47,6 +48,7 @@ header {
   padding: inherit;
   flex-grow: 1;
   padding: 20px 0;
+  color: #4484CE;
 }
 
 /* Profile
@@ -61,7 +63,7 @@ header {
 .portrait {
   width: 60%;
   margin: 0 20%;
-  background-color: #EDEDED;
+  background-color: #F19F4D;
 }
 .profile-image {
   margin: 40px;
@@ -92,7 +94,7 @@ header {
 /* Footer
    ========================================================================== */
 footer {
-  background-color: #fafafa;
+  background-color: #D9D9D9;
   text-align: center;
   width: 90%;
   padding: 5%;
