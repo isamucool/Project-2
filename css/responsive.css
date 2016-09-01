@@ -117,6 +117,7 @@
    ========================================================================== */
 @media (min-width: 1024px) {
   
+  /* Header */
   header  {
     display: flex;
     flex-direction: row;
@@ -132,6 +133,7 @@
     padding-top: 5px;
   }
   
+  /* Nav-Bar */
   .nav {
     width: 40%;
     padding-left: 0;
@@ -145,6 +147,7 @@
     height: 90%;
   }
   
+  /* Body */
    section {
     width: 32%;
     margin-left: 1%;
