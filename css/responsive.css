@@ -13,12 +13,12 @@
     width: 40%;
     padding: 0 30%;
     flex-direction: row;
-    justify-content: center;
   }
   
   .button  {
     background-color: #F9EF00;
     flex-grow: 1;
+    padding: 0 10px;
   }
   
   /* Profile */
