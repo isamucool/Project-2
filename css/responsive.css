@@ -115,7 +115,7 @@
 
 /* Desktop View (breakpoint in 1024 pixels)
    ========================================================================== */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   
   header  {
     display: flex;
